@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitInstance {
     //private const val BASE_URL = "https://api.openweathermap.org/data/2.5/"
-    private val baseUrl = "http://api.weatherapi.com/"
+    private val baseUrl = "https://api.weatherapi.com/"
 
     fun getInstance(): Retrofit {
         return Retrofit.Builder().baseUrl(baseUrl)
